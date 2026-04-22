@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+header{
+    background-image: url(1sstt.jpeg);
+    height: 700px;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    height: 60px;
+    /* border: 2px solid black; */
+    align-items: center;
+    padding: 3vw;
+    gap: 60px;
+}
+.logo{
+    display: flex;
+    font-size: 30px;
+
+}
+.logo h2{
+    font-size: 30px;
+}
+.navbar ul{
+    display: flex;
+    gap: 10px;
+    border-left: 3px solid white;
+}
+.navbar ul li{
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+.navbar li:hover{
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.about{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.about h3{
+    font-size: 20px;
+}
+.about h1{
+    margin-top: -10px;
+    font-size: 55px;
+}
+.about p{
+    margin-top: 10px;
+}
+button{
+    margin-top: 40px;
+    height: 40px;
+    width: 110px;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.rating{
+    margin-left: 60px;
+    margin-top: 60px;
+    border-left: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.star, .reviews{
+    padding-left: 10px;
+}
+.template button{
+    margin-left: 1200px;
+    margin-top: 96px;
+    opacity: 0.4;
+}
+.about2{
+    height: 700px;
+    color: black;
+    margin-top: 50px;
+    /* display: flex; */
+}
+.about2 .frst{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.about2 .frst .left{
+    margin-top: 70px;
+    font-size: 35px;
+}
+.about2 .frst .left span{
+    opacity: 0.4;
+}
+.about2 .frst .right {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* object-fit: cover; */
+   /* width: 400px; */
+}
+.about2 .frst .right img{
+    margin-top: 20px;
+     border-radius: 20px;
+     object-fit: cover;
+     height: 250px;
+     width: 400px;
+     margin-left: 20px;
+}
+.about2 .scnd {
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 90px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(5,1fr);
+}
+.about2 .scnd .num {
+    border-top: 2px solid rgb(194, 189, 189);
+    height: 200px;
+    width: 220px;
+    padding-top: 20px;
+}
+.about2 .scnd .num h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about2 .scnd .num span{
+    font-size: 20px;
+}
+.trd h1{
+    
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.trd .plan1 {
+    padding: 10px;
+    margin: 40px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: 0px 0px 8px;
+    border-radius: 19px;
+}
+.trd .plan1 .l2{
+    margin-left: 40px;
+}
+.trd .plan1 .l2 img{
+    margin-left: 60px;
+    margin-top: 10px;
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.trd .plan1 .r2{
+    margin-top:20px;
+}
+.trd .plan1 .r2 ul li{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.trd .plan1 .r2 button{
+     opacity: 0.4;
+}
+.trd .plan2 {
+    padding: 10px;
+    margin: 40px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: 0px 0px 8px;
+    border-radius: 19px;
+}
+.trd .plan2 .l2{
+    margin-left: 40px;
+}
+.trd .plan2 .l2 img{
+    margin-left: 60px;
+    margin-top: 10px;
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.trd .plan2 .r2{
+    margin-top:20px;
+}
+.trd .plan2 .r2 ul li{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.trd .plan2 .r2 button{
+     opacity: 0.4;
+}
+.trd .plan3 {
+    padding: 10px;
+    margin: 40px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: 0px 0px 8px;
+    border-radius: 19px;
+}
+.trd .plan3 .l2{
+    margin-left: 40px;
+}
+.trd .plan3 .l2 img{
+    margin-left: 60px;
+    margin-top: 10px;
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.trd .plan3 .r2{
+    margin-top:20px;
+}
+.trd .plan3 .r2 h2{
+    /* margin-top:20px; */
+    font-size: 30px;
+}
+.trd .plan3 .r2 ul li{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.trd .plan3 .r2 button{
+     opacity: 0.4;
+}
+.pg1 .star{
+    margin-top: 200px;
+    text-align: center;
+}
+.pg1 .revw{
+    margin:39px 400px 200px;
+    text-align: center;
+    font-size: 15px;
+}
+
